@@ -18,6 +18,11 @@ public class MainActivity extends AppCompatActivity {
     {
         user=new ArrayList<>();
         user.add(new User("SPECIAL 26", "Hindi language heist film", "6.5/10", R.drawable.special));
+        user.add(new User("ene", "Best comedy Telugu film", "8/10", R.drawable.ENE));
+        user.add(new User("khaidi", "Suspense film", "8.5/10", R.drawable.Khaidi));
+        user.add(new User("hit", "Thriller", "7/10", R.drawable.Hit));
+        user.add(new User("pc", "Family Entertainment", "9/10", R.drawable.PC));
+
         return user;
     }
     @Override
