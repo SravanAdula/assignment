@@ -2,6 +2,9 @@ package com.example.myapplication.models;
 
 public class User {
     String title;
+    String ratings;
+    String description;
+    Integer adminImages;
 
     public String getTitle() {
         return title;
@@ -27,14 +30,28 @@ public class User {
         this.description = description;
     }
 
-    String ratings;
-    String description;
+    public Integer getAdminImages() {
+        return adminImages;
+    }
 
-    public User(String title, String ratings, String description) {
+    public void setAdminImages(Integer adminImages) {
+        this.adminImages = adminImages;
+    }
+
+    public User(String title, String ratings, String description, Integer adminImages) {
         this.title = title;
         this.ratings = ratings;
         this.description = description;
+        this.adminImages = adminImages;
     }
 
 
-}
+
+
+
+
+
+    }
+
+
+
